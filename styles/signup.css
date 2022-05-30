@@ -1,0 +1,60 @@
+    * {
+        font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    }
+    
+    body {
+        background-image: url('https://wallpaperaccess.com/full/3658604.jpg');
+        background-color: black;
+        background-blend-mode: lighten;
+        background-size: cover;
+    }
+    
+    #signup-form-div {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    form {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-top: 50px;
+        background-color: rgba(255, 255, 255, 0.753);
+        color: rgb(0, 0, 0);
+        width: 35%;
+        padding: 40px 30px 60px 30px;
+    }
+    
+    h2 {
+        margin-bottom: 40px;
+        font-size: 35px;
+    }
+    
+    .formInput {
+        border-style: none;
+        background-color: #6e6e6e;
+        border-radius: 5px;
+        margin-bottom: 15px;
+        padding-left: 20px;
+    }
+    
+    #submitDetails {
+        border-style: none;
+        background-color: #49AA97;
+        border-radius: 5px;
+        margin-top: 15px;
+    }
+    
+    input {
+        width: 80%;
+        height: 40px;
+        color: white;
+    }
+    
+     ::placeholder {
+        color: white;
+        opacity: 1;
+    }
